@@ -1,0 +1,1124 @@
+/* Mis estilos personalizados para mi pagina web */
+
+
+#collapsibleNavbar {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    position: fixed;
+}
+
+.myNav {
+    text-align: right;
+    padding-bottom: 1%;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    word-spacing: 18px;
+    padding-right: 7%;
+}
+
+.myNav a {
+    word-spacing: 0;
+}
+
+.myNav2 {
+    text-align: right;
+    padding-left: 65%;
+    padding-top: 38%;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    word-spacing: 18px;
+    position: absolute;
+    z-index: 1;
+}
+
+.myNav2 a {
+    word-spacing: 0;
+}
+
+.myNav3 {
+    text-align: right;
+    padding-left: 65%;
+    padding-top: 47%;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    word-spacing: 18px;
+    position: absolute;
+}
+
+.myNav3 a {
+    word-spacing: 0;
+}
+
+.myNav4 {
+    text-align: right;
+    padding-left: 65%;
+    padding-top: 44%;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #2c2c2c;
+    font-weight: bold;
+    font-size: 15px;
+    word-spacing: 18px;
+    position: absolute;
+}
+
+.myNav4 a {
+    word-spacing: 0;
+    color: #2c2c2c !important;
+}
+
+.myNav5 {
+    text-align: right;
+    padding-left: 65%;
+    padding-top: 37%;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    word-spacing: 18px;
+    position: absolute;
+}
+
+.myNav5 a {
+    word-spacing: 0;
+}
+
+.myNav6 {
+    text-align: right;
+    padding-left: 61%;
+    top: 46px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    word-spacing: 18px;
+    position: absolute;
+}
+
+.myNav6 a {
+    word-spacing: 0;
+}
+
+.horizontal-list {
+    text-align: right;
+    display: inline;
+    margin-right: 39px;
+}
+
+ul.horizontal-list li {
+    display: inline;
+}
+
+/* Seccion1 */
+#home {
+    background-color: #2c2c2c;
+    padding: 50px 0;
+}
+
+#_seccion1 {
+    background-color: #2c2c2c;
+    min-height: 100vh;
+}
+
+.img1 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.titulo {
+    font-family: 'Just Another Hand', cursive;
+    color: white;
+    font-size: 18vW;
+    margin-top: 210px;
+    bottom: 80%;
+    left: 0;
+    right: 0;
+}
+
+.subtitulo {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    top: 40%;
+    position: absolute;
+    bottom: 60%;
+    left: 0;
+    right: 0;
+}
+
+.nav ul li a {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+}
+
+.nav img {
+    left: 35%;
+    width: 300px;
+    bottom: 0;
+    position: absolute;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-color: #2c2c2c00 !important;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+nav a {
+    color: white !important;
+}
+
+.circulo1 {
+    height: 10px;
+    width: 10px;
+    background-color: #87cefa82;
+    border-radius: 100%;
+    animation: anim1 18s infinite, anim2 8s infinite;
+    position: relative;
+    transition: all 1s;
+}
+
+@keyframes anim1 {
+
+    0% {
+        left: 50;
+        background-color: #eb6023;
+    }
+
+    25% {
+        left: 150px;
+        background-color: #f08217;
+    }
+
+    50% {
+        left: 0;
+        background-color: #eb6023;
+    }
+
+    75% {
+        left: 200px;
+        background-color: #fbb91e;
+    }
+
+    100% {
+        left: 50;
+        background-color: #eb6023;
+    }
+
+}
+
+@keyframes anim2 {
+
+    0% {
+        top: -500px;
+        background-color: #eb6023;
+    }
+
+    25% {
+        top: -120px;
+        background-color: #f08217;
+    }
+
+    50% {
+        top: -500px;
+        background-color: #eb6023;
+    }
+
+    75% {
+        top: -120px;
+        background-color: #fbb91e;
+    }
+
+    100% {
+        top: -500px;
+        background-color: #eb6023;
+    }
+}
+
+.circulo2 {
+    height: 10px;
+    width: 10px;
+    background-color: #87cefa82;
+    border-radius: 100%;
+    animation: anim3 19s infinite, anim4 9s infinite;
+    position: relative;
+    transition: all 1s;
+}
+
+@keyframes anim3 {
+
+    0% {
+        left: 150px;
+        background-color: #eb6023;
+    }
+
+    25% {
+        left: 1050px;
+        background-color: #f08217;
+    }
+
+    50% {
+        left: 300px;
+        background-color: #eb6023;
+    }
+
+    75% {
+        left: 1200px;
+        background-color: #fbb91e;
+    }
+
+    100% {
+        left: 150px;
+        background-color: #eb6023;
+    }
+
+}
+
+@keyframes anim4 {
+
+    0% {
+        top: -500px;
+        background-color: #eb6023;
+    }
+
+    25% {
+        top: -120px;
+        background-color: #f08217;
+    }
+
+    50% {
+        top: -500px;
+        background-color: #eb6023;
+    }
+
+    75% {
+        top: -120px;
+        background-color: #fbb91e;
+    }
+
+    100% {
+        top: -500px;
+        background-color: #eb6023;
+    }
+}
+
+.circulo3 {
+    height: 30px;
+    width: 30px;
+    background-color: #87cefa82;
+    border-radius: 100%;
+    animation: anim5 20s infinite, anim6 10s infinite;
+    position: relative;
+    transition: all 1s;
+}
+
+@keyframes anim5 {
+
+    0% {
+        left: 0;
+        background-color: #eb6023;
+    }
+
+    25% {
+        left: 150px;
+        background-color: #f08217;
+    }
+
+    50% {
+        left: 80;
+        background-color: #eb6023;
+    }
+
+    75% {
+        left: 200px;
+        background-color: #fbb91e;
+    }
+
+    100% {
+        left: 0;
+        background-color: #eb6023;
+    }
+
+}
+
+@keyframes anim6 {
+
+    0% {
+        top: -350px;
+        background-color: #eb6023;
+    }
+
+    25% {
+        top: -162px;
+        background-color: #f08217;
+    }
+
+    50% {
+        top: -610px;
+        background-color: #eb6023;
+    }
+
+    75% {
+        top: -162px;
+        background-color: #fbb91e;
+    }
+
+    100% {
+        top: -350px;
+        background-color: #eb6023;
+    }
+}
+
+.circulo4 {
+    height: 30px;
+    width: 30px;
+    background-color: #87cefa82;
+    border-radius: 100%;
+    animation: anim7 21s infinite, anim8 11s infinite;
+    position: relative;
+    transition: all 1s;
+}
+
+@keyframes anim7 {
+
+    0% {
+        left: 1500px;
+        background-color: #eb6023;
+    }
+
+    25% {
+        left: 1170px;
+        background-color: #f08217;
+    }
+
+    50% {
+        left: 200px;
+        background-color: #eb6023;
+    }
+
+    75% {
+        left: 1280px;
+        background-color: #fbb91e;
+    }
+
+    100% {
+        left: 1500px;
+        background-color: #eb6023;
+    }
+
+}
+
+@keyframes anim8 {
+
+    0% {
+        top: -500px;
+        background-color: #eb6023;
+    }
+
+    25% {
+        top: -120px;
+        background-color: #f08217;
+    }
+
+    50% {
+        top: -500px;
+        background-color: #eb6023;
+    }
+
+    75% {
+        top: -120px;
+        background-color: #fbb91e;
+    }
+
+    100% {
+        top: -500px;
+        background-color: #eb6023;
+    }
+}
+
+.circulo5 {
+    height: 50px;
+    width: 50px;
+    background-color: #87cefa82;
+    border-radius: 100%;
+    animation: anim9 22s infinite, anim10 12s infinite;
+    position: relative;
+    transition: all 1s;
+}
+
+@keyframes anim9 {
+
+    0% {
+        left: 120px;
+        background-color: #eb6023;
+    }
+
+    25% {
+        left: 1180px;
+        background-color: #f08217;
+    }
+
+    50% {
+        left: 390px;
+        background-color: #eb6023;
+    }
+
+    75% {
+        left: 1150px;
+        background-color: #fbb91e;
+    }
+
+    100% {
+        left: 120px;
+        background-color: #eb6023;
+    }
+
+}
+
+@keyframes anim10 {
+
+    0% {
+        top: -500px;
+        background-color: #eb6023;
+    }
+
+    25% {
+        top: -120px;
+        background-color: #f08217;
+    }
+
+    50% {
+        top: -330px;
+        background-color: #eb6023;
+    }
+
+    75% {
+        top: -120px;
+        background-color: #fbb91e;
+    }
+
+    100% {
+        top: -500px;
+        background-color: #eb6023;
+    }
+}
+
+.circulo6 {
+    height: 50px;
+    width: 50px;
+    background-color: #87cefa82;
+    border-radius: 100%;
+    animation: anim11 23s infinite, anim12 13s infinite;
+    position: relative;
+    transition: all 1s;
+}
+
+@keyframes anim11 {
+
+    0% {
+        left: 150px;
+        background-color: #eb6023;
+    }
+
+    25% {
+        left: 120px;
+        background-color: #f08217;
+    }
+
+    50% {
+        left: 300px;
+        background-color: #eb6023;
+    }
+
+    75% {
+        left: 1200px;
+        background-color: #fbb91e;
+    }
+
+    100% {
+        left: 150px;
+        background-color: #eb6023;
+    }
+
+}
+
+@keyframes anim12 {
+
+    0% {
+        top: -400px;
+        background-color: #eb6023;
+    }
+
+    25% {
+        top: -150px;
+        background-color: #f08217;
+    }
+
+    50% {
+        top: -1020px;
+        background-color: #eb6023;
+    }
+
+    75% {
+        top: -190px;
+        background-color: #fbb91e;
+    }
+
+    100% {
+        top: -400px;
+        background-color: #eb6023;
+    }
+}
+
+/* Seccion2 */
+
+#_seccion2 {
+    background-color: #fbb91e;
+    /*background-image: url('../imagenes/llama.png');*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-position: top;
+}
+
+#_seccion2 img {
+    vertical-align: middle;
+    border-style: none;
+    left: 0;
+    top: 0;
+    width: 587px;
+    height: 100%;
+    position: relative;
+    display: block;
+}
+
+.about h1 {
+    font-family: 'Just Another Hand', cursive;
+    color: #2c2c2c;
+    font-size: 8vW;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    top: 190%;
+    left: 0;
+    width: 100%;
+}
+
+.about p {
+    font-family: 'Laila', serif;
+    color: #2c2c2c;
+    font-size: 14px;
+    text-align: center;
+    top: -126%;
+    line-height: 1.3;
+    padding-left: 60px;
+    padding-right: 60px;
+    letter-spacing: 1px;
+}
+
+/* Seccion3 */
+
+#_seccion3 .col-sm-4 {
+    padding: 0;
+}
+
+#_seccion3 .col-sm-4 .descripcion {
+    height: 100%;
+}
+
+.row .col-sm-4 .descripcion1 {
+    background-color: #2c2c2c;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.hab h1 {
+    font-family: 'Just Another Hand', cursive;
+    color: #fbb91e;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 51px;
+}
+
+#imagenes12 {
+    display: flex;
+    width: 155px;
+    align-items: center;
+    margin-left: 150px;
+    z-index: 99999999999999;
+}
+
+#imagenes12 .iconos2 {
+    padding-left: 20px;
+    padding-top: 10px;
+    z-index: 99999999999999;
+}
+
+#imagenes12 .iconos1 {
+    z-index: 99999999999999;
+}
+
+.row .col-sm-4 .descripcion2 {
+    background-color: #fbb91e;
+    padding: 0 !important;
+}
+
+.ex h1 {
+    font-family: 'Just Another Hand', cursive;
+    color: #2c2c2c;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 51px;
+}
+
+#dos {
+    display: flex;
+}
+
+#dos .descripcion-texto {
+    font-family: 'Laila', serif;
+    color: #2c2c2c;
+    font-size: 12px;
+    margin-left: 60px;
+    text-align: center;
+}
+
+#dos .descripcion-texto2 {
+    font-family: 'Laila', serif;
+    color: white;
+    font-size: 12px;
+}
+
+.descripcion2 .descripcion-texto3 {
+    font-family: 'Laila', serif;
+    color: #2c2c2c;
+    font-size: 10px;
+    text-align: center;
+}
+
+.row .col-sm-4 .descripcion3 {
+    background-color: #2c2c2c;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.for h1 {
+    font-family: 'Just Another Hand', cursive;
+    color: #fbb91e;
+    font-size: 70px;
+    text-align: center;
+    line-height: 66px;
+    padding-top: 51px;
+}
+
+#tres {
+    display: flex;
+}
+
+#tres .texto1 h4 {
+    font-family: 'Laila', serif;
+    color: white;
+    width: bold;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+#tres .texto1 p {
+    font-family: 'Laila', serif;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+#tres .texto2 h4 {
+    font-family: 'Laila', serif;
+    color: white;
+    width: bold;
+    font-size: 12px;
+    text-align: center;
+}
+
+#tres .texto2 p {
+    font-family: 'Laila', serif;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* Seccion4 */
+
+#imageslist .img-fluid {
+    display: flex;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.images3 .tarjetas {
+    width: 187px;
+}
+
+.part2 .row .imgfluid {
+    display: flex;
+    width: 100% !important;
+    height: 100% !important;
+
+}
+
+.part2 h1 {
+    font-family: 'Just Another Hand', cursive;
+    color: #fbb91e;
+    z-index: 1;
+    text-align: center;
+    margin-top: 170px;
+    font-size: 62px;
+    line-height: 58px;
+    position: absolute;
+    margin-left: 20%;
+}
+
+/* Seccion5 */
+
+.primer .img-fluid {
+    display: flex;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.carousel-control-prev-icon {
+    background-image: url('../imagenes/prev.png') !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url('../imagenes/next.png') !important;
+}
+
+.primer h1 {
+    font-family: 'Just Another Hand', cursive;
+    color: #2c2c2c;
+    z-index: 1;
+    text-align: center;
+    margin-top: 170px;
+    font-size: 62px;
+    line-height: 58px;
+    position: absolute;
+    margin-left: 19%;
+}
+
+/* Seccion6 */
+#seccion6 {
+    background-color: #fbb91e;
+}
+
+#ref {
+    display: flex;
+}
+
+#seccion6 .text-right {
+    text-align: right !important;
+    left: -89px;
+}
+
+.row .text-right .img-fluid {
+    width: 63px;
+    margin-top: 27px;
+}
+
+.refer h1 {
+    font-family: 'Just Another Hand', cursive;
+    color: #2c2c2c;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 51px;
+}
+
+.row .info p {
+    font-family: 'Laila', serif;
+    color: #2c2c2c;
+    font-size: 15px;
+    margin-left: -70px;
+    top: 22px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.second {
+    background-color: #2c2c2c;
+}
+
+.second h1 {
+    font-family: 'Just Another Hand', cursive;
+    color: #fbb91e;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 51px;
+    padding-bottom: 51px;
+}
+
+.contac .info p {
+    font-family: 'Laila', serif;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    padding-right: 133px;
+}
+
+.contac .text-center .img-fluid {
+    width: 35px;
+    margin-top: 27px;
+    text-align: center !important;
+    left: -89px;
+    margin-right: -126px;
+
+}
+
+/* Seccion7 */
+
+
+
+/* Footer */
+
+footer {
+    background-color: #2c2c2c;
+    width: 100%;
+    height: 100px;
+}
+
+.me h4 {
+    font-family: 'Just Another Hand', cursive;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.me h6 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white !important;
+    font-size: 15px;
+    text-align: center;
+    padding-top: -1;
+    margin-bottom: -36px;
+}
+
+.me img {
+    margin-top: 0;
+    position: relative;
+    top: -29px;
+    left: 30px;
+}
+
+
+
+@media only screen and (max-width:506px) {
+    .titulo {
+        margin-top: 299px;
+    }
+}
+
+@media only screen and (max-width:506px) {
+    .subtitulo {
+        top: 63%;
+    }
+}
+
+@media only screen and (max-width:1280px) {
+    .about h1 {
+        top: 184%;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .about h1 {
+        top: 129%;
+    }
+}
+
+@media only screen and (max-width:506px) {
+    .about h1 {
+        top: 123%;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .myNav1 {
+        right: -1%;
+    }
+}
+
+@media only screen and (max-width:1280px) {
+    .myNav1 {
+        bottom: -51%;
+    }
+}
+
+@media only screen and (max-width:411px) {
+    .myNav {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:411px) {
+    .myNav2 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:411px) {
+    .myNav3 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:411px) {
+    .myNav4 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:411px) {
+    .myNav5 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:411px) {
+    .myNav6 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:411px) {
+    .navbar navbar-expand-md bg-dark navbar-dark {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width:411px) {
+    .collapse navbar-collapse #collapsibleNavbar {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width:411px) {
+    .navbar-toggler .navbar-nav {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width:411px) {
+    .part2 h1 {
+        font-family: 'Just Another Hand', cursive;
+        color: #fbb91e;
+        z-index: 1;
+        text-align: center;
+        margin-top: 170px;
+        font-size: 62px;
+        line-height: 58px;
+        position: absolute;
+        margin-left: 20%;
+    }
+}
+
+@media only screen and (max-width:411px) {
+    #imageslist .img-fluid {
+        display: flex;
+        width: 100% !important;
+        height: 100% !important;
+    }
+}
+
+@media only screen and (max-width:411px) {
+    .primer h1 {
+        font-family: 'Just Another Hand', cursive;
+        color: #2c2c2c;
+        z-index: 1;
+        text-align: center;
+        margin-top: 170px;
+        font-size: 62px;
+        line-height: 58px;
+        position: absolute;
+        margin-left: 19%;
+    }
+}
+
+@media only screen and (max-width:411px) {
+    .primer .img-fluid {
+        display: flex;
+        width: 100% !important;
+        height: 100% !important;
+    }
+}
+
+@media only screen and (max-width:411px) {
+    .row .info p {
+        font-family: 'Laila', serif;
+        color: #2c2c2c;
+        font-size: 15px;
+        margin-left: -7px;
+        top: 22px;
+        text-align: center;
+        position: relative;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width:411px) {
+    #seccion6 .text-right {
+        text-align: right !important;
+        left: -172px;
+    }
+}
+
+@media only screen and (max-width:411px) {
+    .contac .info p {
+        font-family: 'Laila', serif;
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        position: relative;
+        left: 77px;
+        margin-bottom: 176px;
+    }
+}
+
+@media only screen and (max-width:411px) {
+    .contac .text-center .img-fluid {
+        width: 35px;
+        margin-top: 23px;
+        text-align: center !important;
+        left: -1px;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width:411px) {
+    .me img {
+        margin-top: -2px;
+        position: relative;
+        top: -372px;
+        left: 155px;
+    }
+}
